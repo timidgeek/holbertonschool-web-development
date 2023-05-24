@@ -13,7 +13,9 @@ body {
   left: 0px;
   top: 0px; 
 }
-/* header */
+/* 
+  ``` header ```
+                */
 header {
   position: absolute;
   width: 1282px;
@@ -21,6 +23,9 @@ header {
   left: -7px;
   top: 35.02px;
 }
+/* 
+  ``` main part ```
+                  */
 /* logo */
 .logo {
   background-image: url("../css_advanced/images/logo.png");
@@ -231,7 +236,6 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* or 150% */
 
   text-align: center;
 
@@ -250,65 +254,209 @@ header {
   font-weight: 900;
   font-size: 18px;
   line-height: 27px;
-  /* identical to box height, or 150% */
 
   text-align: center;
 
   color: #FFFFFF;
 }
 
-/* main_part
+/* 
+  ``` testimonials ```
+                    */
 
+/* background */
+#testimonials {
+  position: absolute;
+  width: 1440px;
+  height: 392px;
+  left: -1px;
+  top: 1093px;
 
-position: absolute;
-width: 1440px;
-height: 1093px;
-left: 0px;
-top: 0px; */
+  background: #C271FF;
+}
+.quote {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 56.96%;
 
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 34px;
 
-/* common style
-body {
-  margin: 0;
-  padding: 0;
-  color: #;
-  font-size: px;
-  font-family: ;
+  color: #FFFFFF;
+}
+.name {
+  position: absolute;
+  height: 34px;
+  left: 0%;
+  right: 82.33%;
+  top: calc(50% - 34px/2 + 28px);
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+
+  color: #FFFFFF;
+}
+.subtitle-2 {
+  position: absolute;
+  height: 34px;
+  left: 0%;
+  right: 77.4%;
+  top: calc(50% - 34px/2 + 62px);
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 34px;
+
+  color: #FFFFFF;
 }
 
-/* container style
-.container {
-  margin: 30px auto;
-  max-width: 1000px;
+/* 
+  ``` tutorials ```
+                  */
+.tutorial-box {
+  position: absolute;
+  width: 1228px;
+  height: 450px;
+  left: 106px;
+  top: 1572px;
 }
-main {
+#tutorial-header {
+  position: absolute;
+  height: 40px;
+  left: 39.25%;
+  right: 36.81%;
+  top: calc(50% - 40px/2 - 205px);
 
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+
+  color: #071629;
 }
-/* sub headers style
-h1 {
-  color: ;
-  font: ;
-  font-size: ;
-  text-align: ;
+#tutorial-1 {
+  position: absolute;
+  left: 4.72%;
+  right: 74.51%;
+  top: 25.56%;
+  bottom: 0%;
 }
-
-h2 {
-
+#tutorial-2 {
+  position: absolute;
+  left: 28.01%;
+  right: 51.22%;
+  top: 25.56%;
+  bottom: 0%;
 }
-
-h3 {
-
+#tutorial-3 {
+  position: absolute;
+  left: 51.22%;
+  right: 28.01%;
+  top: 25.56%;
+  bottom: 0%;
 }
+#tutorial-4 {
+  position: absolute;
+  left: 74.43%;
+  right: 4.8%;
+  top: 25.56%;
+  bottom: 0%;
+}
+.play-button {
+  background: url("../css_advanced/images/play.png");
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left: 96px;
+  top: 45px;
+}
+.tut-title {
+  position: absolute;
+  height: 20px;
+  left: 5.1%;
+  right: 53.33%;
+  top: calc(50% - 20px/2 + 14.5px);
 
-/* footer style
-footer {
-  border-top: 1px solid #CCC;
-  background-color: #FFF;
-  height: 60px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  bottom: 0;
-} */
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #071629;
+}
+.sample-text {
+  position: absolute;
+  height: 48px;
+  left: 5.1%;
+  right: 0%;
+  top: calc(50% - 48px/2 + 56.1px);
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+
+  color: rgba(7, 22, 41, 0.501584);
+}
+.rating {
+  background: url("../css_advanced/images/rating.png");
+  position: absolute;
+  width: 107px;
+  height: 15px;
+  left: 13px;
+  top: 305px;
+}
+.time {
+  position: absolute;
+  height: 27px;
+  left: 78.04%;
+  right: 8.63%;
+  top: calc(50% - 27px/2 + 143px);
+  
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
+  
+  text-align: right;
+  
+  color: #C271FF;
+}
+.video-author {
+  position: absolute;
+  height: 27px;
+  left: 21.96%;
+  right: 44.31%;
+  top: calc(50% - 27px/2 + 109px);
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
+  color: #C271FF;
+}
+.video-avatar {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 13px;
+  top: 261px;  
+}
