@@ -647,10 +647,43 @@ header {
                   */
 .footer {
   position: absolute;
-  visibility: hidden;
   width: 1440px;
   height: 249px;
   left: 0px;
   top: 3469px;
   background: #071629;
+}
+#footer-logo {
+  position: absolute;
+  left: 11.46%;
+  right: 76.81%;
+  top: 38.15%;
+  bottom: 49.8%;
+}
+#social-icons {
+  position: absolute;
+  width: 130px;
+  height: 30px;
+  left: 1070px;
+  top: 90px;  
+}
+#trademark {
+  position: absolute;
+  height: 15px;
+  left: 46.67%;
+  right: 46.67%;
+  top: calc(50% - 15px/2 + 78px);
+  
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  
+  
+  color: #FFFFFF;
+  
+  mix-blend-mode: normal;
+  opacity: 0.35;
 }
